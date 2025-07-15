@@ -1,0 +1,67 @@
+Why React?
+library of js - reusable ui,
+created by facebook-use for both web and mobile application.
+
+->Componenets: Navbar.js, Hero.jsx
+
+=>JSX
+->Syntax extension for JS,used for react to define ui.JSX allows you to add HTML and JS, in JS file
+ normal-class
+ react-className
+
+=>Compoenents in React-
+ ->they split the ui into parts.
+ ->Functional Componenets
+ ->Class Compoenents
+
+=>Props
+ ->Properties-> short form Props
+ ->function1, function2-> used to send certain values between function or class.
+ ->props can only be read, you cannot change value of any prop, not mutable
+
+=>State:
+  ->Working,Sleeping-working state and sleeping state.
+  ->dark state, light state.
+  ->state is an object that determine how a Compoenent render and behave.
+  ->states are local and they are mutable(can be changed).
+  ->used to respons to the user,API responses,or internal logic.
+
+=>Handling Event
+ ->React handles events using this.
+
+=>Conditional rending:
+ ->showing up the ui that matches our condition.
+ ->example:student data- if(pass===true)
+ ->if statement
+ ->ternary operators
+ ->logical && operator
+ ->Logical || operator
+
+=>Lists and key
+  ->use map() operation in reactjs
+  ->CRUD operation-Creat,read,update, and delete
+
+=>Form and input:
+ ->creation
+ ->input
+
+=>React Hooks
+ ->useState
+ ->useEffect
+ ->useContext
+ ->useRef
+ ->useReducer
+ ->useMemo
+
+=>React router
+  ->setting up routes in react.
+
+=>State managment
+
+=>Lifting state up
+
+=>Fetching data from APIs
+
+=>Code spliting and lazy loading
+
+=>Deployment

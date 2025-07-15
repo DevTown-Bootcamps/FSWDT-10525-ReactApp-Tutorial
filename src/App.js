@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import FunctionalComp from "./components/functionalComponent.jsx";
+import ClassComponent from "./components/classComponents.js";
+import Profile from './components/prop.js';
+import DefaultProfile from './components/defaultprop.js';
+import Counter from './components/state.js';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <FunctionalComp/>
+      <ClassComponent/>
+      <Profile name="Anshul" age={24} country="India"/>
+      <Profile name="Riya" age={28} country="India"/>
+      <DefaultProfile name="Riya" age={28} country="India"/>
+      <Counter/>
     </div>
   );
 }
