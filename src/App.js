@@ -5,6 +5,7 @@ import ClassComponent from "./components/classComponents.js";
 import Profile from './components/prop.js';
 import DefaultProfile from './components/defaultprop.js';
 import Counter from './components/state.js';
+import FormInput from './components/eventHandler.js';
 function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ function App() {
       <Profile name="Riya" age={28} country="India"/>
       <DefaultProfile name="Riya" age={28} country="India"/>
       <Counter/>
+      <FormInput/>
     </div>
   );
 }
