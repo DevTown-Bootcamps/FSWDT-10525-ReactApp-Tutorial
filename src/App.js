@@ -6,6 +6,8 @@ import Profile from './components/prop.js';
 import DefaultProfile from './components/defaultprop.js';
 import Counter from './components/state.js';
 import FormInput from './components/eventHandler.js';
+import LoginControl from './components/CondingRending.js';
+import NameList from './components/list.js';
 function App() {
   return (
     <div>
@@ -16,6 +18,8 @@ function App() {
       <DefaultProfile name="Riya" age={28} country="India"/>
       <Counter/>
       <FormInput/>
+      <LoginControl/>
+      <NameList/>
     </div>
   );
 }

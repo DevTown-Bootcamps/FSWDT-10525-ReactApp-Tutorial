@@ -69,3 +69,23 @@ export default function FormInput(){
         </form>
     )
 }
+
+// Create a function components and take in two props value, and create two use state in this case and update 
+// the props value in the use state.Print the value on screen
+
+// import React, { useState } from 'react';
+// function TwoValueComponent({ value1, value2 }) {
+//   const [firstValue, setFirstValue] = useState(value1);
+//   const [secondValue, setSecondValue] = useState(value2);
+ 
+//   return (
+//     <div>
+//       <h2>Props passed into state:</h2>
+//       <p>First Value: {firstValue}</p>
+//       <p>Second Value: {secondValue}</p>
+//       <button onClick={updateFirst}>Update First Value</button>
+//       <button onClick={updateSecond}>Update Second Value</button>
+//     </div>
+//   );
+// }
+// export default TwoValueComponent;
