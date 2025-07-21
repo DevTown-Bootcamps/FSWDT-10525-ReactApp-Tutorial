@@ -8,6 +8,7 @@ import Counter from './components/state.js';
 import FormInput from './components/eventHandler.js';
 import LoginControl from './components/CondingRending.js';
 import ToDoList from './components/list.js';
+import MultipInput from './components/form.js';
 function App() {
   return (
     <div>
@@ -20,6 +21,7 @@ function App() {
       <FormInput/>
       <LoginControl/>
       <ToDoList/>
+      <MultipInput/>
     </div>
   );
 }
