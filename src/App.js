@@ -7,7 +7,7 @@ import DefaultProfile from './components/defaultprop.js';
 import Counter from './components/state.js';
 import FormInput from './components/eventHandler.js';
 import LoginControl from './components/CondingRending.js';
-import NameList from './components/list.js';
+import ToDoList from './components/list.js';
 function App() {
   return (
     <div>
@@ -19,7 +19,7 @@ function App() {
       <Counter/>
       <FormInput/>
       <LoginControl/>
-      <NameList/>
+      <ToDoList/>
     </div>
   );
 }
