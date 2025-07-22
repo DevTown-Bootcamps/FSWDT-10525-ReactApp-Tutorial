@@ -1,5 +1,6 @@
 
 import './App.css';
+import {BrowserRouter,Routes,Route,Link,useParams,useNavigation,Navigate} from "react-router-dom"
 import FunctionalComp from "./components/functionalComponent.jsx";
 import ClassComponent from "./components/classComponents.js";
 import Profile from './components/prop.js';
@@ -10,17 +11,16 @@ import ToDoList from './components/list.js';
 import MultipInput from './components/form.js';
 function App() {
   return (
-    <div>
-      <FunctionalComp/>
-      <ClassComponent/>
-      <Profile name="Anshul" age={24} country="India"/>
-      <Profile name="Riya" age={28} country="India"/>
-      <DefaultProfile name="Riya" age={28} country="India"/>
-      <FormInput/>
-      <LoginControl/>
-      <ToDoList/>
-      <MultipInput/>
-    </div>
+    <BrowserRouter>
+      <nav>
+         <Link to="/test">Home</Link> || <Link to="/about">About</Link>
+      </nav>
+      <Routes>
+        <Route path="/" element={<FormInput/>}/>
+        <Route path="/about" element={<ToDoList/>}/>
+        <Route path="/test" element={<MultipInput/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
