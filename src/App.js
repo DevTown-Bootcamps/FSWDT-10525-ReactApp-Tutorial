@@ -9,6 +9,7 @@ import FormInput from './components/eventHandler.js';
 import LoginControl from './components/CondingRending.js';
 import ToDoList from './components/list.js';
 import MultipInput from './components/form.js';
+import API from './components/Api.js';
 function App() {
   return (
     <BrowserRouter>
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<FormInput/>}/>
         <Route path="/about" element={<ToDoList/>}/>
         <Route path="/test" element={<MultipInput/>}/>
+        <Route path="/api" element={<API/>}/>
       </Routes>
     </BrowserRouter>
   );
