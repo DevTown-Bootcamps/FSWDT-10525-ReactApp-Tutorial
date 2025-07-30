@@ -1,0 +1,2 @@
+CI-countinuous integration-testing of code automatically
+CD-continuous deployment-automated deployment.
